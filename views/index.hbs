@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Home</title>
+    </head>
+
+    <body style="padding: 0; margin:0;background-color: brown; 
+            display:flex; align-items:center;flex-direction:column;">
+
+            <form action="http://localhost:5000/postData" method="POST" style="display: flex; flex-direction:column;">
+                <input name="ticker" style="width:420px; height:35px; margin-top:5px;" type="text" placeholder="Ticker"/>
+                <input name="timeframe" style="width:420px; height:35px; margin-top:5px;" type="text" placeholder="Time Frame"/>
+                <input name="status" style="width:420px; height:35px; margin-top:5px;" type="text" placeholder="Status"/>
+                <input name="closePrice" style="width:420px; height:35px; margin-top:5px;" type="text" placeholder="Close Price"/>
+                <input style="width:420px; height:35px; margin-top:5px;" type="submit" value="add"/>
+            </form>
+    </body>
+</html>
